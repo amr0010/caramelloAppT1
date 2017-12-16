@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C50456C41FE5AECC000AFCA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50456C31FE5AECC000AFCA4 /* AppDelegate.swift */; };
+		C50456C61FE5AECC000AFCA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50456C51FE5AECC000AFCA4 /* ViewController.swift */; };
+		C50456C91FE5AECC000AFCA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50456C71FE5AECC000AFCA4 /* Main.storyboard */; };
+		C50456CB1FE5AECC000AFCA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C50456CA1FE5AECC000AFCA4 /* Assets.xcassets */; };
+		C50456CE1FE5AECC000AFCA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50456CC1FE5AECC000AFCA4 /* LaunchScreen.storyboard */; };
+		C50456D91FE5AECC000AFCA4 /* caramelloAppT1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50456D81FE5AECC000AFCA4 /* caramelloAppT1Tests.swift */; };
+		C50456E41FE5AECC000AFCA4 /* caramelloAppT1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50456E31FE5AECC000AFCA4 /* caramelloAppT1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C50456D51FE5AECC000AFCA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C50456B81FE5AECC000AFCA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C50456BF1FE5AECC000AFCA4;
+			remoteInfo = caramelloAppT1;
+		};
+		C50456E01FE5AECC000AFCA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C50456B81FE5AECC000AFCA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C50456BF1FE5AECC000AFCA4;
+			remoteInfo = caramelloAppT1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C50456C01FE5AECC000AFCA4 /* caramelloAppT1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = caramelloAppT1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50456C31FE5AECC000AFCA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C50456C51FE5AECC000AFCA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C50456C81FE5AECC000AFCA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C50456CA1FE5AECC000AFCA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C50456CD1FE5AECC000AFCA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C50456CF1FE5AECC000AFCA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C50456D41FE5AECC000AFCA4 /* caramelloAppT1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = caramelloAppT1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50456D81FE5AECC000AFCA4 /* caramelloAppT1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caramelloAppT1Tests.swift; sourceTree = "<group>"; };
+		C50456DA1FE5AECC000AFCA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C50456DF1FE5AECC000AFCA4 /* caramelloAppT1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = caramelloAppT1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50456E31FE5AECC000AFCA4 /* caramelloAppT1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caramelloAppT1UITests.swift; sourceTree = "<group>"; };
+		C50456E51FE5AECC000AFCA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C50456BD1FE5AECC000AFCA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50456D11FE5AECC000AFCA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50456DC1FE5AECC000AFCA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C50456B71FE5AECC000AFCA4 = {
+			isa = PBXGroup;
+			children = (
+				C50456C21FE5AECC000AFCA4 /* caramelloAppT1 */,
+				C50456D71FE5AECC000AFCA4 /* caramelloAppT1Tests */,
+				C50456E21FE5AECC000AFCA4 /* caramelloAppT1UITests */,
+				C50456C11FE5AECC000AFCA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C50456C11FE5AECC000AFCA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C50456C01FE5AECC000AFCA4 /* caramelloAppT1.app */,
+				C50456D41FE5AECC000AFCA4 /* caramelloAppT1Tests.xctest */,
+				C50456DF1FE5AECC000AFCA4 /* caramelloAppT1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C50456C21FE5AECC000AFCA4 /* caramelloAppT1 */ = {
+			isa = PBXGroup;
+			children = (
+				C50456C31FE5AECC000AFCA4 /* AppDelegate.swift */,
+				C50456C51FE5AECC000AFCA4 /* ViewController.swift */,
+				C50456C71FE5AECC000AFCA4 /* Main.storyboard */,
+				C50456CA1FE5AECC000AFCA4 /* Assets.xcassets */,
+				C50456CC1FE5AECC000AFCA4 /* LaunchScreen.storyboard */,
+				C50456CF1FE5AECC000AFCA4 /* Info.plist */,
+			);
+			path = caramelloAppT1;
+			sourceTree = "<group>";
+		};
+		C50456D71FE5AECC000AFCA4 /* caramelloAppT1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C50456D81FE5AECC000AFCA4 /* caramelloAppT1Tests.swift */,
+				C50456DA1FE5AECC000AFCA4 /* Info.plist */,
+			);
+			path = caramelloAppT1Tests;
+			sourceTree = "<group>";
+		};
+		C50456E21FE5AECC000AFCA4 /* caramelloAppT1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C50456E31FE5AECC000AFCA4 /* caramelloAppT1UITests.swift */,
+				C50456E51FE5AECC000AFCA4 /* Info.plist */,
+			);
+			path = caramelloAppT1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C50456BF1FE5AECC000AFCA4 /* caramelloAppT1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50456E81FE5AECC000AFCA4 /* Build configuration list for PBXNativeTarget "caramelloAppT1" */;
+			buildPhases = (
+				C50456BC1FE5AECC000AFCA4 /* Sources */,
+				C50456BD1FE5AECC000AFCA4 /* Frameworks */,
+				C50456BE1FE5AECC000AFCA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = caramelloAppT1;
+			productName = caramelloAppT1;
+			productReference = C50456C01FE5AECC000AFCA4 /* caramelloAppT1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C50456D31FE5AECC000AFCA4 /* caramelloAppT1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50456EB1FE5AECC000AFCA4 /* Build configuration list for PBXNativeTarget "caramelloAppT1Tests" */;
+			buildPhases = (
+				C50456D01FE5AECC000AFCA4 /* Sources */,
+				C50456D11FE5AECC000AFCA4 /* Frameworks */,
+				C50456D21FE5AECC000AFCA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C50456D61FE5AECC000AFCA4 /* PBXTargetDependency */,
+			);
+			name = caramelloAppT1Tests;
+			productName = caramelloAppT1Tests;
+			productReference = C50456D41FE5AECC000AFCA4 /* caramelloAppT1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C50456DE1FE5AECC000AFCA4 /* caramelloAppT1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50456EE1FE5AECC000AFCA4 /* Build configuration list for PBXNativeTarget "caramelloAppT1UITests" */;
+			buildPhases = (
+				C50456DB1FE5AECC000AFCA4 /* Sources */,
+				C50456DC1FE5AECC000AFCA4 /* Frameworks */,
+				C50456DD1FE5AECC000AFCA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C50456E11FE5AECC000AFCA4 /* PBXTargetDependency */,
+			);
+			name = caramelloAppT1UITests;
+			productName = caramelloAppT1UITests;
+			productReference = C50456DF1FE5AECC000AFCA4 /* caramelloAppT1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C50456B81FE5AECC000AFCA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = amr;
+				TargetAttributes = {
+					C50456BF1FE5AECC000AFCA4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					C50456D31FE5AECC000AFCA4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C50456BF1FE5AECC000AFCA4;
+					};
+					C50456DE1FE5AECC000AFCA4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C50456BF1FE5AECC000AFCA4;
+					};
+				};
+			};
+			buildConfigurationList = C50456BB1FE5AECC000AFCA4 /* Build configuration list for PBXProject "caramelloAppT1" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C50456B71FE5AECC000AFCA4;
+			productRefGroup = C50456C11FE5AECC000AFCA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C50456BF1FE5AECC000AFCA4 /* caramelloAppT1 */,
+				C50456D31FE5AECC000AFCA4 /* caramelloAppT1Tests */,
+				C50456DE1FE5AECC000AFCA4 /* caramelloAppT1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C50456BE1FE5AECC000AFCA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50456CE1FE5AECC000AFCA4 /* LaunchScreen.storyboard in Resources */,
+				C50456CB1FE5AECC000AFCA4 /* Assets.xcassets in Resources */,
+				C50456C91FE5AECC000AFCA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50456D21FE5AECC000AFCA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50456DD1FE5AECC000AFCA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C50456BC1FE5AECC000AFCA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50456C61FE5AECC000AFCA4 /* ViewController.swift in Sources */,
+				C50456C41FE5AECC000AFCA4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50456D01FE5AECC000AFCA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50456D91FE5AECC000AFCA4 /* caramelloAppT1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50456DB1FE5AECC000AFCA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50456E41FE5AECC000AFCA4 /* caramelloAppT1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C50456D61FE5AECC000AFCA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C50456BF1FE5AECC000AFCA4 /* caramelloAppT1 */;
+			targetProxy = C50456D51FE5AECC000AFCA4 /* PBXContainerItemProxy */;
+		};
+		C50456E11FE5AECC000AFCA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C50456BF1FE5AECC000AFCA4 /* caramelloAppT1 */;
+			targetProxy = C50456E01FE5AECC000AFCA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C50456C71FE5AECC000AFCA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C50456C81FE5AECC000AFCA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C50456CC1FE5AECC000AFCA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C50456CD1FE5AECC000AFCA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C50456E61FE5AECC000AFCA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C50456E71FE5AECC000AFCA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C50456E91FE5AECC000AFCA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = caramelloAppT1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amr.caramelloAppT1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C50456EA1FE5AECC000AFCA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = caramelloAppT1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amr.caramelloAppT1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C50456EC1FE5AECC000AFCA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = caramelloAppT1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amr.caramelloAppT1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/caramelloAppT1.app/caramelloAppT1";
+			};
+			name = Debug;
+		};
+		C50456ED1FE5AECC000AFCA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = caramelloAppT1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amr.caramelloAppT1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/caramelloAppT1.app/caramelloAppT1";
+			};
+			name = Release;
+		};
+		C50456EF1FE5AECC000AFCA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = caramelloAppT1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amr.caramelloAppT1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = caramelloAppT1;
+			};
+			name = Debug;
+		};
+		C50456F01FE5AECC000AFCA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = caramelloAppT1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amr.caramelloAppT1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = caramelloAppT1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C50456BB1FE5AECC000AFCA4 /* Build configuration list for PBXProject "caramelloAppT1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50456E61FE5AECC000AFCA4 /* Debug */,
+				C50456E71FE5AECC000AFCA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C50456E81FE5AECC000AFCA4 /* Build configuration list for PBXNativeTarget "caramelloAppT1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50456E91FE5AECC000AFCA4 /* Debug */,
+				C50456EA1FE5AECC000AFCA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C50456EB1FE5AECC000AFCA4 /* Build configuration list for PBXNativeTarget "caramelloAppT1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50456EC1FE5AECC000AFCA4 /* Debug */,
+				C50456ED1FE5AECC000AFCA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C50456EE1FE5AECC000AFCA4 /* Build configuration list for PBXNativeTarget "caramelloAppT1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50456EF1FE5AECC000AFCA4 /* Debug */,
+				C50456F01FE5AECC000AFCA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C50456B81FE5AECC000AFCA4 /* Project object */;
+}
